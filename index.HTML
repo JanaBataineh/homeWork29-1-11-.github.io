@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .my-button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid green; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+}
+
+.my-button:focus {
+    background-color: rgba(144, 238, 144, 0.455); 
+    outline: none; 
+}
+        ul{
+            background-color: yellow;
+        }
+     
+      
+        .container {
+  position: relative;
+}
+
+.image {
+  display: block; 
+  max-width: 100%;
+  height: auto;
+}
+
+.text {
+  position: absolute;
+  top: 20px; 
+  left: 20px; 
+  color: white;
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 5px 10px;
+}
+    </style>
+</head>
+<body>
+    <button class="my-button">اضغط هنا</button>
+        <ul>
+        <li>coffee</li>
+        <li>Tea</li> 
+        <li>Coca Cola</li>
+        </ul>
+       <div>
+        <h1>This is heading</h1>
+        <div class="container">
+    <img src="q3.png" alt="q3" class="image" >
+    <div class="text">because the image has a z-index of -1 ,it will placed behind the text</div>
+    </div>
+    </div>
+    </body>
+</html>
